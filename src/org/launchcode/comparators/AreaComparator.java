@@ -23,4 +23,5 @@ public class AreaComparator implements Comparator<City> {
         else
             return 0;
     }
+
 }
