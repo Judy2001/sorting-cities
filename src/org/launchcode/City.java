@@ -1,5 +1,6 @@
 package org.launchcode;
 
+
 import java.util.Arrays;
 import java.util.Formatter;
 import java.util.Locale;
@@ -7,6 +8,7 @@ import java.util.Locale;
 /**
  * Created by LaunchCode
  */
+
 public class City {
 
     private String name;
@@ -14,12 +16,14 @@ public class City {
     private int population;
     private double area;
 
+
     public City(String name, String state, int population, double area) {
         this.name = name;
         this.state = state;
         this.population = population;
         this.area = area;
     }
+
 
     public static String getTableHeader() {
 
@@ -35,6 +39,7 @@ public class City {
         return row1 + "\n" + row2;
     }
 
+
     @Override
     public String toString() {
 
@@ -44,6 +49,7 @@ public class City {
 
         return sb.toString();
     }
+
 
     public String getName() {
         return name;
@@ -60,4 +66,5 @@ public class City {
     public double getArea() {
         return area;
     }
+
 }

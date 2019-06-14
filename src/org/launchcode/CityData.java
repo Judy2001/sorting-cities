@@ -1,5 +1,6 @@
 package org.launchcode;
 
+
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
@@ -11,9 +12,11 @@ import java.util.List;
 /**
  * Created by LaunchCode
  */
+
 public class CityData {
 
     private static final String DATA_FILE = "resources/city_data.csv";
+
 
     static ArrayList<City> loadData() {
 
